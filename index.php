@@ -18,5 +18,7 @@ $PAGE->navbar->add('index');
 echo $OUTPUT->header();
 echo $OUTPUT->heading('heading');
 
+echo get_string('tete', 'local_geo');
+
 echo $OUTPUT->footer();
 ?>
